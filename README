@@ -10,7 +10,7 @@ Assuming you have a local proxy setup to the development server - and the develo
 
 This curl command will perform a search for 'Mickey Mouse' - a valid test record in the IDology system
 
-curl -v --socks http://127.0.0.1:1080 -d username=test -d password=test -d firstName=mickey -d lastName=mouse -d address='15 MIDLAND AVE APT' -d city=paramus -d state=NJ -d zip=07652 https://web.idologylive.com/api/idlive.svc
+curl -v --socks http://127.0.0.1:1080 -d username=test -d password=test -d firstName=mickey -d lastName=mouse -d address='15 MIDLAND AVE APT' -d city=paramus -d state=NJ -d zip=07652 https://the.idology.api.url
 
 
 == Configuration
